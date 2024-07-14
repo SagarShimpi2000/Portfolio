@@ -9,7 +9,7 @@ function loadModel() {
   loader.load('avatar2.glb',
     (gltf) => {
       setupScene(gltf);
-      document.getElementById('avatar-loading').style.display = 'none';
+      //document.getElementById('avatar-loading').style.display = 'none';
     }, 
     // (xhr) => {
     //   const percentCompletion = Math.round((xhr.loaded / xhr.total) * 100);
